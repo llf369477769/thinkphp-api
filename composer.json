@@ -1,0 +1,27 @@
+{
+    "name": "jitusoft/tp3-framework",
+    "description": "the Framework base on ThinkPHP3",
+    "version": "1.0.0",
+    "type": "framework",
+    "keywords": ["framework","thinkphp","ORM"],
+    "homepage": "http://jitusoft.cn/",
+    "license": "Apache2",
+    "authors": [
+        {
+            "name": "lianglang",
+            "email": "lianglang@jitusoft.cn",
+            "role": "manager"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "firebase/php-jwt": ">=5.0",
+        "endroid/qr-code": "^3.0@dev",
+        "overtrue/wechat": "~4.0"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}

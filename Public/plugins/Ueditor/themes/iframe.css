@@ -1,0 +1,26 @@
+/*可以在这里添加你自己的css*/
+img{
+    max-width:100%; 
+}
+blockquote{
+	padding: 10px 20px;
+    margin: 0;
+    font-size: 16px !important;
+    border-left: 5px solid #eee;
+}
+figure{
+    font-size: 14px !important;
+}
+figcaption {
+    font-weight: 400;
+    clear: both;
+    color: #999;
+    font-size: 12px !important;
+    margin-top: 5px;
+    padding: 0 20px;
+    text-align: center;
+    display: block;
+}
+p{
+    letter-spacing: 1px;
+}
