@@ -1,23 +1,4 @@
-﻿> 站在巨人的肩膀上，并不是高的表现，反而使自己变得渺小~只有吸收了巨人的营养，茁壮自己才是真正的高大！ --笔者
-
-## 灵 感
-
-首先自我介绍下吧，我是一个PHP程序员，一个刚刚干了两年左右的小菜鸟。我第一份工作是做微信开发的，这也是我入行以来第一次做的商业上线项目，虽然我只是充当了其中一个不是太重要的角色，但是感谢它让我第一次接触了API，也让我第一次对于API产生了浓厚的兴趣。之后的一段时间内甚至疯狂的收集过各种免费的API接口！然而一直只是在用API，却没有为API贡献过些什么。
-
-开源框架用了很多，开源代码看了很多，github、git@osc、Stack Overflow这些优秀的平台帮助了我很多，所以，我觉得是时候为开源做点什么。2015年初，我遇到了PhalApi，一个非常有生命力的API项目，是PHP语言写的，当时的它还是一个宝宝，在项目组的细心呵护下茁壮成长，很荣幸的是，我也是项目组成员之一，然而在它的成长中，我输送的营养简直不值一提~也感谢创始人 [@dogstar][1] 对我的信任，一直没有把我踢出项目组。既然API这么火，既然未来的互联网世界中API占了很重要的地位，既然越来越多的人开始开发API，那么无状态的API如何去管理呢？因此**ApiAdmin**来了~
-
-## 愿 景
-
-> 希望有人用它，希望更多的人用它。
-> 希望它能帮助到你，希望它能帮助到更多的你。
-
-## 项目简介
-
-**体验地址**
-
-[https://admin.apiadmin.org/](https://admin.apiadmin.org/)
-
-注：线上体验项目的账号密码请移步：[http://git.oschina.net/apiadmin/apiadmin-wxpro](http://git.oschina.net/apiadmin/apiadmin-wxpro) 获取微信小程序二维码，扫描二维码获取体验账号！
+此版本在原作者的基础上，再度加入部分功能。
 
 **二次开发文档**
 
@@ -25,15 +6,9 @@
 
 **源码地址**
 
-国内OSC：[http://git.oschina.net/apiadmin/ApiAdmin](http://git.oschina.net/apiadmin/ApiAdmin)
+原作者GitHub：[https://github.com/Zhao-github/ApiAdmin](https://github.com/Zhao-github/ApiAdmin)
 
-国际GitHub：[https://github.com/Zhao-github/ApiAdmin](https://github.com/Zhao-github/ApiAdmin)
 
-**下载地址**
-
-国内OSC：[http://git.oschina.net/apiadmin/ApiAdmin/releases](http://git.oschina.net/apiadmin/ApiAdmin)
-
-国际GitHub：[https://github.com/Zhao-github/ApiAdmin/releases](https://github.com/Zhao-github/ApiAdmin/releases)
 
 **项目构成**
 
@@ -53,6 +28,13 @@
  7. 使用Datatables完成数据JS加载
  8. ....
  
+ 
+ **新增功能**
+ 1、引入composer安装三方类库
+ 2、添加上传封装类
+ 3、修复接口部分问题
+ 4、......
+ 
  ```
  ApiAdmin（PHP部分）
  ├─ 系统维护
@@ -63,22 +45,3 @@
  |  ...
  ```
 
-**页面截图**
-
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221526_c2090391_110856.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221536_be4efd42_110856.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221550_5d92dbdf_110856.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221559_44530e0b_110856.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221609_fd20b776_110856.png "在这里输入图片标题")
-![输入图片说明](https://git.oschina.net/uploads/images/2017/0415/221618_bcfd94b5_110856.png "在这里输入图片标题")
-
-**项目特性**
-
-- 开放源码
-- 保持生机
-- 不断更新
-- 响应市场
-
-**开源，我们在路上！**
-
-[1]: http://my.oschina.net/dogstar/blog
