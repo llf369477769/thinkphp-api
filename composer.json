@@ -1,15 +1,15 @@
 {
-    "name": "jitusoft/tp3-framework",
+    "name": "szualang/tp3-framework",
     "description": "the Framework base on ThinkPHP3",
     "version": "1.0.0",
-    "type": "framework",
+    "type": "Project",
     "keywords": ["framework","thinkphp","ORM"],
-    "homepage": "http://jitusoft.cn/",
+    "homepage": "http://thinkphp.com/",
     "license": "Apache2",
     "authors": [
         {
             "name": "lianglang",
-            "email": "lianglang@jitusoft.cn",
+            "email": "lianglang@qq.com",
             "role": "manager"
         }
     ],
@@ -19,9 +19,5 @@
         "endroid/qr-code": "^3.0@dev",
         "overtrue/wechat": "~4.0"
     },
-    "minimum-stability": "dev",
-    "repositories": [
-        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
-        {"packagist": false}
-    ]
+    "minimum-stability": "stable"
 }
