@@ -12,6 +12,6 @@ return array(
     'USER_TOKEN_EXPIRES' => null,
 
 
-    'LOAD_EXT_CONFIG'=>'jwt,error_code,huaan', //加载配置文件
+    'LOAD_EXT_CONFIG'=>'jwt', //加载配置文件
 
 );

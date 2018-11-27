@@ -39,7 +39,7 @@
                 <div class="layui-form-item layui-form-text">
                     <label class="layui-form-label">菜单排序</label>
                     <div class="layui-input-block">
-                        <input type="text" name="sort" value="{:(isset($detail['sort'])?$detail['sort']:'')}" placeholder="请输入正整数，越大排名越靠后" class="layui-input">
+                        <input type="text" name="sort" value="{:(isset($detail['sort'])?$detail['sort']:0)}" placeholder="请输入正整数，越大排名越靠后" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-form-item">

@@ -20,7 +20,7 @@ return array(
         'calculation' => 'Home/Wiki/calculation'
     ),
 
-    'LOAD_EXT_CONFIG'=>'upload,redis,weixin,sms_dayu', //加载配置文件
+    'LOAD_EXT_CONFIG'=>'upload,redis,error_code', //加载配置文件
 
     'LANG_SWITCH_ON' => true,   // 开启语言包功能
     'LANG_LIST'      => 'zh-cn', // 允许切换的语言列表 用逗号分隔
@@ -36,7 +36,7 @@ return array(
 
     'ONLINE_TIME'=>43200,   //在线过期时间
 
-    'HUAAN_URL'=>'http://zhihui.com/', //本地环境域名
+    'WEBSITE_URL'=>'http://zhihui.com/', //本地环境域名
 
 );
 

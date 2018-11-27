@@ -27,6 +27,9 @@ class ApiController extends BaseController {
     public function index() {
         $getArr = I('get.');
         $postArr = I('post.');
+        if(!empty($_FILES)){
+            $postArr['image_file'] = $_FILES['image_file'];
+        }
 
         //获取ApiInfo根据
         $this->apiDetail = S('ApiInfo_' . $getArr['hash']);

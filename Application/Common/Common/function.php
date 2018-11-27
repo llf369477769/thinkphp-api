@@ -213,7 +213,7 @@ function createQRcode($save_path,$qr_data='PHP QR Code :)',$qr_level='L',$qr_siz
     vendor('phpqrcode.phpqrcode');  //注意这里的大小写哦，不然会出现找不到类，前面的phpqrcode是文件夹名字，后面是类名
     //检测并创建生成文件夹
     if (!file_exists($PNG_TEMP_DIR)){
-        mkdir($PNG_TEMP_DIR);
+        mkdir($PNG_TEMP_DIR,0777,true);
     }
     $filename = $PNG_TEMP_DIR.'test.png';
     $errorCorrectionLevel = 'L';
@@ -268,4 +268,25 @@ function dobrush($src, $dst, $png, $x=0, $y=0)
     $result = $image->writeImage($dst);
     $image->destroy();
     return $result;
+}
+
+
+/**
+ * 图片转base64输出
+ * @param $file 图片文件路径
+ * @param int $type 类型，1取图片转码信息  2加上图片前缀信息
+ * @return string
+ */
+function imgToBase64($file, $type=1){
+    $base64_file = '';
+    if(file_exists($file)){
+        $image_info = getimagesize($file);
+        $base64_data = base64_encode(file_get_contents($file));
+        if($type == 1){
+            $base64_file = $base64_data;
+        }else{
+            $base64_file = 'data:'.$image_info['mime'].';base64,'.$base64_data;
+        }
+    }
+    return $base64_file;
 }
