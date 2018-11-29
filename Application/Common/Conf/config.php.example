@@ -6,7 +6,7 @@ return array(
     'APP_VERSION' => 'v1.0',
     'APP_NAME'    => 'apiAdmin',
 
-    'USER_ADMINISTRATOR' => array(1,2),
+    'USER_ADMINISTRATOR' => array(1),
     'AUTH_KEY' => 'I&TC{pft>L,C`wFQ>&#ROW>k{Kxlt1>ryW(>r<#R',
 
     'COMPANY_NAME' => 'ApiAdmin开发维护团队',
