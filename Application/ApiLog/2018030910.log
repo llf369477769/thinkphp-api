@@ -1,4 +1,0 @@
-Test/getRandNum###5aa1f53490bf1###2018-03-09 10:46:02###[]###null###null######null######{"code":-12,"msg":"\u7f3a\u5c11\u53c2\u6570version","data":[]}###null###null###null###null###null
-Test/getRandNum###5aa1f53490bf1###2018-03-09 10:46:13###[]###null###null###v1.0###null######{"code":200,"msg":"\u64cd\u4f5c\u6210\u529f","data":"1001"}###[]###null###null###null###null
-Test/getRandNum###5aa1f53490bf1###2018-03-09 10:56:21###[]###null###null###v1.0###null######{"code":10000,"msg":"\u8eab\u4efd\u4ee4\u724c\u9a8c\u8bc1\u5931\u8d25","data":[]}###[]###null###null###null###null
-Test/getRandNum###5aa1f53490bf1###2018-03-09 10:56:37###[]###null###null###v1.0###null######{"code":10000,"msg":"\u5bc6\u7801\u9519\u8bef","data":[]}###[]###null###null###null###null
